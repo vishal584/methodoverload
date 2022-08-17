@@ -1,0 +1,38 @@
+class StringsTask {
+  
+  public static void main(String[] args) {
+        
+String s = "ALEX";
+        
+String output = s.substring(0, 1).toUpperCase() + s.substring(1, 4).toLowerCase();
+
+        System.out.println(output.concat(" ...."));
+       
+  String str = new String("that was great - lol".concat("... "));
+      
+System.out.println( "Initial String : "+ str);
+     
+ // replacing "lol" with "laugh out loud"
+     
+ str = str.replaceAll( "lol" , "laugh out loud" );
+    
+  System.out.println( "The String after substitution : "+str );
+  
+      String s1 = "Tiger";
+        String s2 = "biryani";
+        String s3 = s1.concat(" ").concat("and").concat(" ").concat(s2);
+        System.out.println("my favorite animal and food is:"+ s3.concat("..... "));
+        
+        String s01 = "bahubali";
+        String s02 = "history";
+        String s03 = s01.concat(" ").concat(s02);
+        System.out.println("my favorite movie and book is:"+ s03);
+  
+  String name = "Julian"; 
+String color = "green"; 
+String food = "pizza"; 
+System.out.print(name+" ");
+System.out.print("Favorite color is:"+color +".");
+ 
+  }
+}
